@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+   
 }
 h1{
     background-color: rgb(56, 23, 87);
@@ -34,6 +35,7 @@ img{
     font-size: larger;
     gap: 20px;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 #user-score, #comp-score{
     font-size: 60px;
@@ -48,5 +50,15 @@ img{
     display: inline;
     padding: 20px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: default;
+}
+#choices{
+    background-color: white;
+    font-size: 30px;
+    height: 20px;
+    margin: 50px;
+    display: inline;
+    color: black;
+    padding: auto;
+    border-radius: 10%;
 }
